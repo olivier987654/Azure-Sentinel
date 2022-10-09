@@ -62,7 +62,7 @@ Click on the “Edit” button. This will bring us into the Logic Apps Designer.
 
 ![Edit](Images/logicappedit.png)
 
-Click on the bar labeled “Connections”.  
+Click on the bar labelled “Connections”.  
 
 Here you can select an existing connection or create a new one. You will need to do this twice.
 

@@ -2,11 +2,11 @@
 author: Benjamin Kovacevic
 
 This playbook will disable the user in Azure Active Directory and add a comment to the incident. There is an option for incident and alert trigger below.<br>
-If user have active admin assigment, approval process will be sent to selected email/emails. For users with eligible admin assigment, disabling process will be the same as for the regular user.<br>
+If user have active admin assignment, approval process will be sent to selected email/emails. For users with eligible admin assignment, disabling process will be the same as for the regular user.<br>
 Note: Admin user will be disabled and approval will be sent after admin is disabled to approve or reject disabling process. Reject will re-enable admin, while Approve will leave admin disabled. If approval/rejection is not confirmed in 30 minutes, admin user will be disabled and notification will be sent.<br>
 If admin or regular user have manager, manager will be notified that user/admin has been disabled in Azure AD.<br><br>
-Note: This playbook will have high privilages and will be able to disable all admins, including the Global Admins in the process. Be careful not to lock yourself out!<br>
-If you don't want that playbook have option to disable admin users, please use Block-AADUser playbook!
+Note: This playbook will have high privileges and will be able to disable all admins, including the Global Admins in the process. Be careful not to lock yourself out!<br>
+If you don't want that playbook has options to disable admin users, please use Block-AADUser playbook!
 
 ## Quick Deployment
 **Deploy with incident trigger** (recommended)
